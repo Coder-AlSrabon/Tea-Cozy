@@ -1,0 +1,172 @@
+body {
+  font-family: "Helvetica";
+  font-size: 22px;
+  background-color: black;
+  color: #fff5ee;
+  opacity: 0.9;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+}
+.left {
+  display: inline;
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+.left img {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 10px;
+}
+.right {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  margin: 0px 8px;
+}
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+.navbar li a {
+  color: seashell;
+}
+.banner {
+  position: relative;
+  top: 70px;
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.banner img {
+  width: 1200px;
+  height: 700px;
+}
+.heading {
+  position: absolute;
+  top: 38%;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  padding: 10px 0;
+}
+.para {
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  padding: 10px 0;
+}
+.middle {
+  width: 100%;
+  z-index: 4;
+  position: relative;
+  top: 130px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.row-2 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.items {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.image img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+.heading-2 {
+  text-align: center;
+}
+.name {
+  text-align: center;
+}
+.last {
+  position: relative;
+  top: 200px;
+  width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  /* left: 170px; */
+}
+.row-3 img {
+  height: 500px;
+  width: 1000px;
+}
+.box {
+  background-color: black;
+  border: 1px solid white;
+  height: 270px;
+  width: 245px;
+  opacity: 1;
+  margin: 0 40px;
+}
+.textbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 120px;
+}
+.box p {
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+}
+.box h3 {
+  text-align: center;
+  padding: 5px;
+}
+.row-3 h1 {
+  position: absolute;
+  top: 8px;
+  left: 395px;
+  opacity: 0.8;
+}
+.footer-text{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  top: 180px;
+  margin: 0 auto;
+  
+}
+.text{
+  text-align: center;
+}
+.text p{
+  padding-top: 8px;
+  font-size: 18px;
+}
+#Featured-Tea{
+  width: 100%;
+}
+#Mission{
+  width: 100%;
+}
+#Locations{
+  width: 100%;
+}
+.align-left{
+  margin: 0px 20px;
+  padding-top: 10px;
+  font-size: 22px;
+}
